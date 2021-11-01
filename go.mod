@@ -6,10 +6,10 @@ require (
 	contrib.go.opencensus.io/exporter/ocagent v0.7.0
 	github.com/briandowns/spinner v0.0.0-20190212173954-5cf08d0ac778
 	github.com/clarketm/json v1.15.7
-	github.com/containernetworking/cni v0.6.1-0.20180218032124-142cde0c766c
+	github.com/containernetworking/cni v0.8.1
 	github.com/elazarl/goproxy v0.0.0-20190711103511-473e67f1d7d2 // indirect
 	github.com/emicklei/proto v1.9.1
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.11.0+incompatible
 	github.com/fatih/color v1.13.0
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/ghodss/yaml v1.0.0
@@ -42,15 +42,14 @@ require (
 	google.golang.org/grpc v1.41.0
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.1.0
 	google.golang.org/protobuf v1.27.1
-	helm.sh/helm/v3 v3.6.3
-	k8s.io/api v0.21.3
-	k8s.io/apiextensions-apiserver v0.21.3
-	k8s.io/apimachinery v0.21.3
-	k8s.io/client-go v0.21.3
+	helm.sh/helm/v3 v3.7.1
+	k8s.io/api v0.22.1
+	k8s.io/apiextensions-apiserver v0.22.1
+	k8s.io/apimachinery v0.22.1
+	k8s.io/client-go v0.22.1
 	k8s.io/code-generator v0.22.3
 	k8s.io/klog/v2 v2.30.0
 	k8s.io/kube-aggregator v0.21.3
-	rsc.io/letsencrypt v0.0.3 // indirect
 	sigs.k8s.io/yaml v1.3.0
 )
 
